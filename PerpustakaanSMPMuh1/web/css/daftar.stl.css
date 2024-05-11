@@ -1,0 +1,11 @@
+html,
+body * {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif
+}
+
+body {
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../img/bg/smp_muh1godean_1.jpg) no-repeat center center fixed;
+  background-size: cover
+}
+

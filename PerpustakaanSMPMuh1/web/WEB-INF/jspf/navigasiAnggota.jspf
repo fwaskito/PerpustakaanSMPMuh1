@@ -1,0 +1,30 @@
+<div class="container-fluid">
+  <nav class="navbar fixed-top py-0 navbar-expand-lg ftco_navbar ftco-navbar-light shadow" id="ftco-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="beranda.jsp">
+        <img src="img/logo/logo_smp_muhammadiyah_2.png" height="35" width="240" alt="">
+      </a>
+      <div class="collapse navbar-collapse flex-grow-1" id="ftco-nav">
+        <ul class="navbar-nav ms-auto flex-nowrap">
+          <li class="nav-item"><a href="beranda.jsp" class="nav-link">Beranda</a></li>
+          <li class="nav-item"><a href="LayananBuku?aksi=katalog" class="nav-link">Katalog</a></li>
+          <li class="nav-item"><a href="LayananPeminjaman?aksi=riwayatpinjam" class="nav-link">Riwayat Pinjam</a></li>
+          <li class="nav-item"><a href="LayananUsulan?aksi=riwayatusul" class="nav-link">Usul Pustaka</a></li>
+
+          <li class="dropdown nav-item d-md-flex align-items-center">
+            <a href="#" class="dropdown-toggle nav-link d-flex align-items-center justify-content-center p-0" id="dropdown" data-toggle="dropdown" aria-expanded="false">
+              <img src="img/icon/anggota.jpg" class="rounded-circle" height="30"/>
+            </a>
+            <div class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdown04">
+              <a href="#" class="dropdown-item">Lihat akun</a>
+              <div class="dropdown-divider"></div>
+              <a href="LayananAnggota?aksi=keluar" class="dropdown-item">Keluar</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="LayananBuku?aksi=rak" class="nav-link"><i class="fas fa-book fa-md"></i>&nbsp;rak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- END nav -->
+</div>
